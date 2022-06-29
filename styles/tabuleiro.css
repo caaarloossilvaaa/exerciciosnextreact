@@ -1,0 +1,35 @@
+.tabuleiro {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+.tabuleiro .area {
+  margin: auto;
+  margin-top: 30px;
+  width: 800px;
+  height: 800px;
+  background-color: red;
+  display: block;
+  flex-direction: row;
+}
+
+.xadrezBranco {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.xadrezPreto {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+}
+
+.tabuleiro .area .linha {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+}
